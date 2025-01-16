@@ -12,7 +12,7 @@ const Chat = () => {
     const fetchChats = async () => {
       try {
         const token = getCookie("authToken");
-        const response = await fetch("https://https://chat-app-be-gltx.onrender.com/chats", {
+        const response = await fetch("https://chat-app-be-gltx.onrender.com/chats", {
           headers: {
             Authorization: token,
           },
