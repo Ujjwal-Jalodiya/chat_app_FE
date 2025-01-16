@@ -49,7 +49,7 @@ const ChatDetail = () => {
 
     fetchChatDetail();
 
-    const cable = createConsumer("wss://https://chat-app-be-gltx.onrender.com/cable");
+    const cable = createConsumer("wss://chat-app-be-gltx.onrender.com/cable");
     const channel = cable.subscriptions.create(
       { channel: "MessagesChannel", chat_id: id },
       {
