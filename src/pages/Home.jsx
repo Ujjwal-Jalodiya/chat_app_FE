@@ -11,11 +11,6 @@ function Home() {
             Login
           </button>
         </Link>
-        <Link to="/register">
-          <button className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition duration-300">
-            Register
-          </button>
-        </Link>
       </div>
     </div>
     </div>
